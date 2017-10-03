@@ -175,7 +175,7 @@ class plugin_gotop_admin_ui extends e_admin_ui
                         '96' => "96 px",
                         ))),
             'gotop_padding' => array(
-                'title' => LAN_PLUGIN__GOTOP_ADMIN_PADDING, 
+                'title' => LAN_PLUGIN__GOTOP_ADMIN_PADDING,
                 'help' => LAN_PLUGIN__GOTOP_ADMIN_PADDING_HELP,
                 'type' => 'dropdown',
                 'data' => 'int',
