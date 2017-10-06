@@ -4,10 +4,12 @@
   <summary  lan="LAN_PLUGIN__GOTOP_SUMMARY">Add a Goto Top button to every scrollable page.</summary>
   <description lan="LAN_PLUGIN__GOTOP_DESC">This plugin puts a highly configurable Goto Top button on any page where the bottom has scrolled uo.</description>
   <category>tools</category>
+  <copyright>2017</copyright>
   <keywords>
     <word>goto top</word>
     <word>scroll top</word>
     <word>g4hdu</word>
+    <word>Barry</word>
   </keywords>
   <adminLinks>
     <link url='admin_config.php' description='Configure Goto Top Plugin' icon='images/gotop_32.png' iconSmall='images/gotop_16.png' primary='true' >LAN_CONGIGURE</link>
@@ -31,7 +33,9 @@
     <pref name="gotop_corners">1</pref>
     <pref name="e_remote">https://raw.githubusercontent.com/G4HDU/gotop/master/plugin.xml</pref>
     <pref name="e_update">0</pref>
-    <pref name="e_version">0.0.0</pref>
+    <pref name="e_version">2.0.3</pref>
+    <pref name="gotop_icon">hand-o-up</pref>
+    <pref name="gotop_padding">8</pref>
   </pluginPrefs>
   <dependencies>
     <PHP name='core' min_version='5.2.1' />

@@ -80,6 +80,7 @@ class gotop
     {
         //  self::$gotopPrefs = e107::getPlugConfig('gotop', true);
         self::$gotopPrefs = e107::getPlugConfig('gotop', true);
+        print_a(self::$gotopPrefs);
         self::$Active = self::$gotopPrefs->getPref('gotop_Active', 1);
         self::$Admin = self::$gotopPrefs->getPref('gotop_Admin', 0);
         self::$gotoIcon = self::$gotopPrefs->getPref('gotop_icon', 'arrow-up');

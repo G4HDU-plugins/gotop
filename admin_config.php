@@ -16,6 +16,8 @@
  */
 
 require_once ("../../class2.php");
+e107::lan('gotop', 'help', true); // e_PLUGIN.'guestbook/languages/'.e_LANGUAGE.'/guestbook.php'
+
 if (!getperms("P")) {
     e107::redirect('admin');
     exit;
